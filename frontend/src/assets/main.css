@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Metallica;
+    src: url(src/assets/Metallica.ttf);
+}
+
+@font-face {
+    font-family: metal;
+    src: url(src/assets/metal_lord.ttf);
+}
+
+@font-face {
+    font-family: Elektra;
+    src: url(src/assets/Elektra.ttf);
+}
+
+@font-face {
+    font-family: OldGate;
+    src: url(src/assets/OldGateLaneNF.ttf);
+}
+
+@font-face {
+    font-family: Type;
+    src: url(src/assets/Type.ttf);
+}
+
+@font-face {
+    font-family: Type2;
+    src: url(src/assets/Type2.ttf);
+}
