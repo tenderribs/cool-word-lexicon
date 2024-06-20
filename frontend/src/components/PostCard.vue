@@ -33,17 +33,17 @@ const degrees = computed((): string => {
 <template>
   <div class="card" :style="degrees">
     <div>
-      <h2 style="display: flex; justify-content: center;">{{ post.term }} </h2> 
+      <h2 style="display: flex; justify-content: center;">{{ post.term }} </h2>
     </div>
     <div style="position: absolute; top: 5px; right: 10px; line-height: 25%;">
         <p class="date">created at: </p>
-        <p class="date">{{ post.created_at.slice(0,10)}}</p>
+        <p class="date">{{ String(post.created_at).slice(0,10)}}</p>
       </div>
     <p class="main-text">{{ post.description }} </p>
     <p class="main-text" style="font-style: italic;">{{ post.usage }}</p>
     <div style="display: flex; justify-content: center; font-family: metal;">
       <b-button @click="like" style="user-select: none; border-radius: 5px; padding: 4px; cursor: pointer; padding-right: 10px; margin-bottom: 5px; padding-left: 5px; border: 2px solid black; background-color: greenyellow; font-size: 20px;">Likes {{ post.likes }}</b-button>
-    </div> 
+    </div>
   </div>
 </template>
 
@@ -66,7 +66,7 @@ p {
   font-family: Type2;
   font-size: 20px;
   text-align: center;
-  
+
 }
 
 .card {

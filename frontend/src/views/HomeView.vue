@@ -30,7 +30,7 @@ const showModal: Ref<boolean> = ref(false)
 </script>
 
 <template>
-  <div style="background-image: url(src/assets/water.gif); background-size: cover; width: 100%; height: 100%; position: absolute;" >
+  <div style="background-image: url(src/assets/water.gif); background-size: cover; width: 100%; height: 100%; position: absolute; overflow: auto;" >
     <h1>Youngster termS</h1>
     <div style="display: flex; justify-content: center; margin-bottom: 40px;">
       <p @click="showModal = !showModal" style="border: 4px solid black; display: flex; background-color: aquamarine; padding: 15px; font-family: Type2;">Create new post</p>
